@@ -34,9 +34,11 @@ Contoh Output
 ada
 tidak
 ada
-Setiap kelompok diwakili 1 orang yang submit tugas.
 
+
+
+
+Setiap kelompok diwakili 1 orang yang submit tugas.
 Project tugas disimpan di github.com, setiap anggota kelompok berkolaborasi dengan 
 menggunakan git. hanya anggota yang ada aktivitas di git yang akan dinilai.
-
 kirimkan link github project tugas anda untuk mengumpulkan tugas ini.
