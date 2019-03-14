@@ -1,3 +1,8 @@
+PEMROGRAMAN TERSTRUKTUR - FIND WORD
+===================================
+
+
+
 [TUGAS KELOMPOK (MAX 3 mhs)]
 
 Buat program dengan kosep pointer bahasa C++ untuk menyelesaikan permainan cari 
@@ -15,21 +20,21 @@ OUTPUT
 Outputnya sebanyak N baris, yang menyatakan setiap kata yang diinputkan ada atau 
 tidak
 
-CONTOH INPUT
+Contoh Input
 ==================
+
 3
 brick
 yellow
 ego
+
+Contoh Output
 ==================
 
-CONTOH OUTPUT
-==================
 ada
 tidak
 ada
 Setiap kelompok diwakili 1 orang yang submit tugas.
-==================
 
 Project tugas disimpan di github.com, setiap anggota kelompok berkolaborasi dengan 
 menggunakan git. hanya anggota yang ada aktivitas di git yang akan dinilai.
