@@ -1,3 +1,5 @@
 <?
+
+	Ngasal iki
 	phpinfo();
 ?>
