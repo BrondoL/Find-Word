@@ -3,21 +3,21 @@ PEMROGRAMAN TERSTRUKTUR - FIND WORD
 
 
 
-[TUGAS KELOMPOK (MAX 3 mhs)]
+[TUGAS KELOMPOK (MAX 4 mhs)]
 
-Buat program dengan kosep pointer bahasa C++ untuk menyelesaikan permainan cari 
+Buat program dengan kosep pointer bahasa C++ untuk menyelesaikan permainan cari
 kata dari gambar.
-Matrik karakter disimpan dalam variabel pointer di script kode program. Pencarian 
+Matrik karakter disimpan dalam variabel pointer di script kode program. Pencarian
 kata dilakukan secara vertikal, horizontal dan diagonal.
 
 INPUT:
 
-inputan terdiri dari N+1 bari, baris pertama berupa N integer, dan Ni baris 
+inputan terdiri dari N+1 bari, baris pertama berupa N integer, dan Ni baris
 berikutnya berupa kata yang dicari dalam matrik
 
 OUTPUT
 
-Outputnya sebanyak N baris, yang menyatakan setiap kata yang diinputkan ada atau 
+Outputnya sebanyak N baris, yang menyatakan setiap kata yang diinputkan ada atau
 tidak
 
 Contoh Input
@@ -39,6 +39,6 @@ ada
 
 
 Setiap kelompok diwakili 1 orang yang submit tugas.
-Project tugas disimpan di github.com, setiap anggota kelompok berkolaborasi dengan 
+Project tugas disimpan di github.com, setiap anggota kelompok berkolaborasi dengan
 menggunakan git. hanya anggota yang ada aktivitas di git yang akan dinilai.
 kirimkan link github project tugas anda untuk mengumpulkan tugas ini.
