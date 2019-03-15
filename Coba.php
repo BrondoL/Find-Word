@@ -1,5 +1,4 @@
 <?
 
-	Ngasal iki
 	phpinfo();
 ?>
