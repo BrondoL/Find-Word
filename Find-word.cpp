@@ -25,16 +25,92 @@ void printword();
 int main()
 {
     printword();
+
+    // Jumlah kata yang dicari
     int jml;
-    cout << endl;
-    cout << "Jumlah kata yang ingin dicari ? ";
+    cout << endl << endl;
+    cout << "\tJumlah kata yang ingin dicari ? ";
     cin >> jml;
     char kata[jml][15]; int pnjgkata[jml];
     cin.ignore();
+    // Input kata
     for(int i=0;i<jml;i++){
         cout << i+1 << ". ";
         cin.getline(kata[i], 15);
         pnjgkata[i]=strlen(kata[i]);    //Menghitung jumlah huruf pada kata
+    }
+
+    // Mencari Kata
+    int cek=0,cek2=0;
+    for(int x=0;x<jml;x++){
+        for(int i=0;i<15;i++){
+            for(int j=0;j<15;j++){
+                if(kata[x][0]==word[i][j]){
+                    // Diagonal bawah kanan
+                    // ==================================
+                    for(int k=0;k<pnjgkata[x];k++){
+                        if(kata[x][k]==word[i+k][j+k]){
+                            cek=k;
+                        }else
+                            break;
+                    }
+                    if(cek == (pnjgkata[x]-1)) {
+                        cek2 +=1;
+                    } else {
+                        cek2 +=0;
+                    }
+                    cek=0;
+                    // ==================================
+                    // Diagonal Kiri Atas
+                    for(int k=0;k<pnjgkata[x];k++){
+                        if(kata[x][k]==word[i-k][j-k]){
+                            cek=k;
+                        }else
+                            break;
+                    }
+                    if(cek == (pnjgkata[x]-1)) {
+                        cek2 +=1;
+                    } else {
+                        cek2 +=0;
+                    }
+                    cek=0;
+                    // ===================================
+                    // Diagonal kanan atas
+                    for(int k=0;k<pnjgkata[x];k++){
+                        if(kata[x][k]==word[i-k][j+k]){
+                            cek=k;
+                        }else
+                            break;
+                    }
+                    if(cek == (pnjgkata[x]-1)) {
+                        cek2 +=1;
+                    } else {
+                        cek2 +=0;
+                    }
+                    cek=0;
+                    // ===================================
+                    // Diagonal kiri bawah
+                    for(int k=0;k<pnjgkata[x];k++){
+                        if(kata[x][k]==word[i+k][j-k]){
+                            cek=k;
+                        }else
+                            break;
+                    }
+                    if(cek == (pnjgkata[x]-1)) {
+                        cek2 +=1;
+                    } else {
+                        cek2 +=0;
+                    }
+                    cek=0;
+                    // ===================================
+
+                }
+            }
+        }
+        if(cek2>0){
+            cout << "Ada !";
+        }else
+            cout << "Tidak ada !";
     }
 
 	cin.get();
@@ -43,8 +119,11 @@ int main()
 
 void printword(){
     for(int i=0;i<15;i++){
+        cout << "-----------------------------------------------------------"<<endl;
         for(int j=0;j<15;j++)
-            cout << word[i][j] << "  ";
+            cout << word[i][j] << " | ";
         cout << endl;
+        if(i==14)
+            cout << "-----------------------------------------------------------";
     }
 }
