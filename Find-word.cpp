@@ -26,7 +26,7 @@ int main()
 {
     printword();
 
-    // Jumlah kata yang dicari
+    //  Jumlah kata yang dicari
     int jml;
     cout << endl << endl;
     cout << "\tJumlah kata yang ingin dicari ? ";
