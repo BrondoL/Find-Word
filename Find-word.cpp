@@ -21,6 +21,7 @@ char word[15][15]={ {'t','g','b','w','w','i','n','t','e','r','w','s','e','s','n'
                 };
 
 void printword();
+void dkb(int &, int &, int &, char (*wordval)[15]);
 
 int main()
 {
@@ -109,6 +110,7 @@ int main()
         }
         if(cek2>0){
             cout << "Ada !";
+            cek2 = 0;
         }else
             cout << "Tidak ada !";
     }
