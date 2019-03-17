@@ -1,3 +1,6 @@
+![ScreenShot](https://github.com/BrondoL/Find-Word/blob/master/Screenshot/SS.png)
+
+
 PEMROGRAMAN TERSTRUKTUR - FIND WORD
 ===================================
 
