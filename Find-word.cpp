@@ -21,12 +21,13 @@ char word[15][15]={ {'t','g','b','w','w','i','n','t','e','r','w','s','e','s','n'
                 };
 
 void printword();
+void dkb(int &, int &, int &, char (*wordval)[15]);
 
 int main()
 {
     printword();
 
-    // Jumlah kata yang dicari
+    //  Jumlah kata yang dicari
     int jml;
     cout << endl << endl;
     cout << "\tJumlah kata yang ingin dicari ? ";
@@ -109,6 +110,7 @@ int main()
         }
         if(cek2>0){
             cout << "Ada !";
+            cek2 = 0;
         }else
             cout << "Tidak ada !";
     }
