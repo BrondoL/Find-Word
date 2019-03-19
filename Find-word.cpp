@@ -122,50 +122,50 @@ int main()
                          cek2 +=1;
                     }else{
                           cek2 +=0;
-                     }
+                    }
                     cek=0;
-					//====================================
-					// Vertikal Bawah
-					for (int k=0;k<pnjgkata[x];k++){
-						if(kata[x][k]==word[i-k][j]){
-							cek=k;
-						}else
-							break;
-					}
-					if(cek == (pnjgkata[x]-1)){
-						cek2 +=1;
-					}else{
-						cek2 +=0;
-					}
-					cek=0;
+		    //====================================
+		    // Vertikal Bawah
+		    for (int k=0;k<pnjgkata[x];k++){
+		      	    if(kata[x][k]==word[i-k][j]){
+				    cek=k;
+			    }else
+				    break;
+		    }
+		    if(cek == (pnjgkata[x]-1)){
+			    cek2 +=1;
+		    }else{
+			    cek2 +=0;
+		    }
+		    cek=0;
                      //===================================
                     //horizontal ke kanan
-					for (int k=0; k<pnjgkata[x]; k++){
-						if (kata[x][k]==word[i][j+k]){
-							cek=k;
-						}else
-							break;
-					}
-					if(cek==(pnjgkata[x]-1)){
-						cek2 +=1;
-					}else {
-						cek2 +=0;
-					}
-					cek=0;
+		    for (int k=0; k<pnjgkata[x]; k++){
+			    if (kata[x][k]==word[i][j+k]){
+				    cek=k;
+			    }else
+				    break;
+		    }
+		    if(cek==(pnjgkata[x]-1)){
+		  	    cek2 +=1;
+		    }else{
+			    cek2 +=0;
+		    }
+		    cek=0;
                     //===================================
-					//horizontal ke kiri
-					for (int k=0; k<pnjgkata[x]; k++){
-						if (kata[x][k]==word[i][j-k]){
-							cek=k;
-						}else
-							break;
-					}
-					if(cek==(pnjgkata[x]-1)){
-						cek2 +=1;
-					}else {
-						cek2 +=0;
-					}
-					cek=0;
+		    //horizontal ke kiri
+		    for (int k=0; k<pnjgkata[x]; k++){
+			    if (kata[x][k]==word[i][j-k]){
+				    cek=k;
+			    }else
+				    break;
+		    }
+		    if(cek==(pnjgkata[x]-1)){
+			    cek2 +=1;
+		    }else{
+			    cek2 +=0;
+		    }
+		    cek=0;
                 }
             }
         }
