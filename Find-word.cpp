@@ -21,7 +21,6 @@ char word[15][15]={ {'t','g','b','w','w','i','n','t','e','r','w','s','e','s','n'
                 };
 
 void printword();
-void dkb(int &, int &, int &, char (*wordval)[15]);
 
 int main()
 {
@@ -104,7 +103,34 @@ int main()
                     }
                     cek=0;
                     // ===================================
-
+                    // Atas
+					          for (int k=0;k<pnjgkata[x];k++){
+						              if(kata[x][k]==word[i+k][j]){
+							                cek=k;
+                          }else
+                              break;
+                      }
+                      if(cek == (pnjgkata[x]-1)){
+                          cek2 +=1;
+                      }else{
+                          cek2 +=0;
+                      }
+                      cek=0;
+					//====================================
+					// Bawah
+					for (int k=0;k<pnjgkata[x];k++){
+						if(kata[x][k]==word[i-k][j]){
+							cek=k;
+						}else
+							break;
+					}
+					if(cek == (pnjgkata[x]-1)){
+						cek2 +=1;
+					}else{
+						cek2 +=0;
+					}
+					cek=0;
+          //====================================
                 }
             }
         }
