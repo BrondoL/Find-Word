@@ -110,7 +110,7 @@ int main()
 }
 
 void printword(){
-	
+	cout<<"\t\t      GAME FIND WORD"<<endl;
     for(int i=0;i<15;i++){
         cout << "-----------------------------------------------------------"<<endl;
         for(int j=0;j<15;j++)
