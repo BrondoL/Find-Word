@@ -108,6 +108,15 @@ int main()
                 }
             }
         }
+        //mengubah huruf menjadi kapital
+         for(int i=0;i<jml;i++){
+    	for (int j=1;j<i;j++){
+		
+		
+        cout << i+j << ". ";
+   cout<<(char)((int)kata[i][j] - 32);
+}
+}
         if(cek2>0){
             cout << "Ada !";
             cek2 = 0;
