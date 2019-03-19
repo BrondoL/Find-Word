@@ -111,7 +111,7 @@ int main()
 						}else
 							break;
 					}
-					if(cek == (pnjgkata[x])){
+					if(cek == (pnjgkata[x]-1)){
 						cek2 +=1;
 					}else{
 						cek2 +=0;
@@ -125,7 +125,7 @@ int main()
 						}else
 							break;
 					}
-					if(cek == (pnjgkata[x])){
+					if(cek == (pnjgkata[x]-1)){
 						cek2 +=1;
 					}else{
 						cek2 +=0;
