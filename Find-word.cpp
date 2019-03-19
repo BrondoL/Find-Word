@@ -92,50 +92,7 @@ int main()
                         cek2 +=0;
                     }
                     cek=0;
-                    // ==================================
-                    // Diagonal Kiri Atas
-                    for(int k=0;k<pnjgkata[x];k++){
-                        if(kata[x][k]==word[i-k][j-k]){
-                            cek=k;
-                        }else
-                            break;
-                    }
-                    if(cek == (pnjgkata[x]-1)) {
-                        cek2 +=1;
-                    } else {
-                        cek2 +=0;
-                    }
-                    cek=0;
-                    // ===================================
-                    // Diagonal kanan atas
-                    for(int k=0;k<pnjgkata[x];k++){
-                        if(kata[x][k]==word[i-k][j+k]){
-                            cek=k;
-                        }else
-                            break;
-                    }
-                    if(cek == (pnjgkata[x]-1)) {
-                        cek2 +=1;
-                    } else {
-                        cek2 +=0;
-                    }
-                    cek=0;
-                    // ===================================
-                    // Diagonal kiri bawah
-                    for(int k=0;k<pnjgkata[x];k++){
-                        if(kata[x][k]==word[i+k][j-k]){
-                            cek=k;
-                        }else
-                            break;
-                    }
-                    if(cek == (pnjgkata[x]-1)) {
-                        cek2 +=1;
-                    } else {
-                        cek2 +=0;
-                    }
-                    cek=0;
-                    // ===================================
-
+                    
                 }
             }
         }
@@ -145,7 +102,7 @@ int main()
             
         }else
             cout << "Tidak ada !";
-            cout<<endl;
+          
     }
 
 	cin.get();
@@ -153,7 +110,7 @@ int main()
 }
 
 void printword(){
-	cout<<"\t\t      GAME FIND WORD"<<endl;
+	
     for(int i=0;i<15;i++){
         cout << "-----------------------------------------------------------"<<endl;
         for(int j=0;j<15;j++)
