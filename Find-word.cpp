@@ -102,7 +102,7 @@ int main()
             
         }else
             cout << "Tidak ada !";
-          
+          cout<<endl;
     }
 
 	cin.get();
