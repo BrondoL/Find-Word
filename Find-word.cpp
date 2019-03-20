@@ -97,6 +97,13 @@ int main()
 }
 
 void printword(){
+	cout<<"==========================================================="<<endl;
+	cout<<"DAFTAR ANGGOTA KELOMPOK : "<<endl;
+	cout<<"Nama : 1. Aulia Ahmad Nabil\t (1817051074)"<<endl;
+	cout<<"       2. Arbi Hidayatullah\t (1817051045)"<<endl;
+	cout<<"       3. Asbiq Al Alawi\t (1817051026)"<<endl;
+	cout<<"       4. Pandi Barep Arianza\t (1817051002)"<<endl;
+	cout<<"==========================================================="<<endl<<endl;
 	cout<<"\t\t      GAME FIND WORD"<<endl;
     for(int i=0;i<15;i++){
         cout << "-----------------------------------------------------------"<<endl;
