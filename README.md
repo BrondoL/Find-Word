@@ -1,10 +1,10 @@
 # DAFTAR ANGGOTA KELOMPOK : 
-	Nama : 1. Aulia Ahmad Nabil   (1817051074)
-         2. Arbi Hidayatullah   (1817051045)
-         3. Asbiq Al Alawi      (1817051026)
-         4. Pandi Barep Arianza (1817051002)
+	Nama : 	1. Aulia Ahmad Nabil   (1817051074)
+         	2. Arbi Hidayatullah   (1817051045)
+         	3. Asbiq Al Alawi      (1817051026)
+         	4. Pandi Barep Arianza (1817051002)
 
-
+# Sreenshot
 ![ScreenShot](https://github.com/BrondoL/Find-Word/blob/master/Screenshot/SS.png)
 
 
